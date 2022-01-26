@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon/favicon.png" />
+		<title>Adaptive Maze Generator</title>
+		<link rel="stylesheet" href="./css.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+		</head>
+	<body>
+	<div>
+		<h1 id="b" onclick="myFunction()">
+			Adaptive Maze
+		</h1>
+		<div id="nav">
+			<canvas></canvas>
+		<ul>
+			<li><label>Width:</label><input id=width maxlength="2" type="text"/></li>
+			<li><label>Height:</label><input id=height maxlength="2" type="text"/></li>
+			<li><label>Path Width:</label><input id=pathwidth maxlength="1" type="text"/></li>
+			<li><label>Wall Width:</label><input id=wallwidth maxlength="1" type="text"/></li>
+			<li><label>Outer Width:</label><input id=outerwidth maxlength="1" type="text"/></li>
+			<li><label>Path Color:</label><input id=pathcolor type="text"/></li>
+			<li><label>Wall Color:</label><input id=wallcolor type="text"/></li>
+			<input id=seed type="hidden"/>
+			<li><input id=randomseed type="button" value="New maze"/></li>
+			</ul>
+		</div>
+	<script src="./js/maze.js"></script>
+	<script src="./js/js-alert.js"></script>
+	</div>
+	</body>
+</html>
