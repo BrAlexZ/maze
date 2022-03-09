@@ -1,0 +1,79 @@
+*{
+	padding: 0;	
+}
+	
+html{
+	width: 100%;
+	height: 100%;
+}
+
+
+body{
+	text-align: center;
+	background-image: url('img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(0,0,0, 0.4); 
+}
+
+div{
+	display: inline-block;
+	position: center;
+}
+
+h1{
+	font-family: Rockwell, "Courier Bold";
+	color: #d4f1f9;
+	line-height: 1.3em;
+	font-size: 4.5em;
+	margin-bottom: 20px;
+	width: 5.0em;
+}
+
+h1:hover{
+	cursor: pointer;
+}
+
+canvas{
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0.3);	
+	width: 15.25em;
+}
+
+button{
+	margin-top: 35px;	
+	border-radius: 1em;
+	border-color: #d4f1f9;
+	padding: 10px 23px;
+	text-align: center;
+	margin-left:5%;
+	display: inline-block;
+	font-size: 12px;
+	}
+	
+#bra2{
+	margin-top: 15px;
+	background-color: rgba(255, 255, 255, 0.15);
+	height: 620px;
+	width: 450px;
+	box-shadow: 2px 4px black;
+	border: 3px solid black;
+	border-radius: 20px;
+	border-color: #d4f1f9;
+}
+
+.fadeButton {
+	display: none;
+	font-family: Rockwell, "Courier Bold";
+	color: black;
+}
+		
+#bra3{
+	border: 2px solid;
+	border-radius: 5px;
+	border-color: white;
+	height:243px
+}
+	
+	
+	
